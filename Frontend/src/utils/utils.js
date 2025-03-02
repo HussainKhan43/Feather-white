@@ -1,1 +1,1 @@
-export const BACKEND_URL = "https://feather-white.onrender.com/";
+export const BACKEND_URL = "https://feather-white.onrender.com/api";
