@@ -39,7 +39,6 @@ app.use(
 mongoose
   .connect(DB_URI, {
     useNewUrlParser: true,
-    useUnifiedTopology: true,
     serverSelectionTimeoutMS: 30000, // 30 seconds
     bufferCommands: false,
   })
