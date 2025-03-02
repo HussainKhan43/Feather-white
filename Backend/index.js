@@ -16,10 +16,8 @@ const PORT = process.env.PORT || 4001;
 const DB_URI = process.env.MONGO_URI;
 
 // Enable CORS for all routes
-const allowedOrigins = ['https://feather-white.vercel.app'];
-
 const corsOptions = {
-  origin: allowedOrigins,
+  origin: process.env.FRONTEND_URL, // specify the origin of your frontend
   credentials: true, // enable credentials
     methods: ["GET", "POST", "PUT", "PATCH","DELETE"],
 };
