@@ -17,9 +17,9 @@ const DB_URI = process.env.MONGO_URI;
 
 // Enable CORS for all routes
 const corsOptions = {
-  origin: process.env.FRONTEND_URL, // specify the origin of your frontend
-  credentials: true, // enable credentials
-    methods: ["GET", "POST", "PUT", "PATCH","DELETE"],
+  origin: process.env.FRONTEND_URL,
+  credentials: true,
+  methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
 };
 
 app.use(cors(corsOptions));
@@ -55,6 +55,7 @@ app.use('/api/admin', adminRoutes);
 
 
 // Cloudinary Configuration Code
+
 cloudinary.config({
   cloud_name: process.env.cloud_name,
   api_key: process.env.api_key,
