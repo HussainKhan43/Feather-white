@@ -66,7 +66,7 @@ function Footer() {
             <div className="flex items-center space-x-2 mb-2">
               <FaMapMarkerAlt className="text-gray-400" />
               <p className="text-gray-400 text-sm">
-                support@featherwhite.in
+                Mumbai,Maharastra
               </p>
             </div>
             <div className="flex items-center space-x-2 mb-2">
