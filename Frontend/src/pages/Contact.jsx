@@ -134,7 +134,7 @@ function Contact() {
         <div className="space-y-6">
           <div className="flex items-center gap-4">
             <FaHome className="text-3xl" />
-            <p className="text-lg"> Mumbai,Maharastra</p>
+            <p className="text-lg"> Mumbai, Maharashtra</p>
           </div>
           <div className="flex items-center gap-4">
             <FaPhone className="text-3xl" />
